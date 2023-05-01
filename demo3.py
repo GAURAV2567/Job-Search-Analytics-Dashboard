@@ -12,11 +12,11 @@
 
 import streamlit as st
 import pandas as pd
-import numpy as np
-import altair as alt
-import pydeck as pdk
-import matplotlib.pyplot as plt
-from datetime import datetime,timedelta
+#import numpy as np
+#import altair as alt
+#import pydeck as pdk
+#import matplotlib.pyplot as plt
+#from datetime import datetime,timedelta
 import plotly.express as px
 
 import seaborn as sns
@@ -35,7 +35,7 @@ st.title('Welcome')
 
 #Caching data 
 
-@st.cache
+#@st.cache
 def load_data():
     data = pd.read_csv(DATA_URL,parse_dates=['Period'])
     lowercase = lambda x: str(x).lower()
@@ -253,7 +253,7 @@ if st.checkbox('Show Manipulated Data'):
     
     #DOWNLOAD BUTTON 
     
-    @st.cache
+    #@st.cache
     def convert_df(df):
         # IMPORTANT: Cache the conversion to prevent computation on every rerun
         return df.to_csv().encode('utf-8')
@@ -274,7 +274,7 @@ if st.checkbox('Show Raw Data'):
     
     #DOWNLOAD BUTTON 
     
-    @st.cache
+    #@st.cache
     def convert_df(df):
         # IMPORTANT: Cache the conversion to prevent computation on every rerun
         return df.to_csv().encode('utf-8')
