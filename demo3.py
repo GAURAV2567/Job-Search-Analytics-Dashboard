@@ -204,7 +204,7 @@ if chart_type:
                     #st.bar_chart(data['domain'].value_counts(),height=550)
                     fig = px.bar(
                         data['domain'].value_counts().reset_index().rename(
-                            columns={'index':'Industry','domain':'Counts'}).sort_values(by=['Industry']),
+                            columns={'index':'Industry','domain':'Counts'}).sort_values(by='Industry'),
                         x='Industry', y='Counts', color='Industry',height=550)
                     st.plotly_chart(fig, use_container_width=True)        
                         
