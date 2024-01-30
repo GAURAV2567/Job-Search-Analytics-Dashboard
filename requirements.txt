@@ -12,16 +12,7 @@ cryptography==41.0.2
 cycler==0.11.0
 gitdb==4.0.10
 GitPython==3.1.29
-ipykernel @ file:///C:/b/abs_21ykzkm7y_/croots/recipe/ipykernel_1662361803478/work
-ipython @ file:///C:/b/abs_536xsn7rj0/croot/ipython_1670919360443/work
-ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
-Jinja2 @ file:///C:/b/abs_7cdis66kl9/croot/jinja2_1666908141852/work
 joblib==1.2.0
-jsonschema @ file:///C:/b/abs_59eyhnbyej/croots/recipe/jsonschema_1663375476535/work
-jupyter-server @ file:///C:/Windows/TEMP/abs_d3c42c59-765d-4f9b-9fa3-ad5b1369485611i_yual/croots/recipe/jupyter_server_1658754493238/work
-jupyter_client @ file:///C:/b/abs_cbnezz4zg0/croot/jupyter_client_1669040266195/work
-jupyter_core @ file:///C:/b/abs_b8r5lb5eus/croot/jupyter_core_1668084445779/work
-jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_1601490720602/work
 more-itertools==9.1.0
 mplcursors==0.5.2
 numpy==1.23.5
@@ -41,9 +32,6 @@ streamlit==1.24.1
 urllib3==1.26.13
 validators==0.20.0
 watchdog==2.2.0
-wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
-webencodings==0.5.1
-websocket-client @ file:///C:/ci_310/websocket-client_1642093970919/work
 wincertstore==0.2
 yarl==1.9.2
 zipp==3.11.0
